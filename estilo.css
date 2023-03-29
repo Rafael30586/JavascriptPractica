@@ -1,0 +1,70 @@
+body{
+	background-color: rgb(28, 28, 28);
+}
+
+.que{
+	/*display: inline;*/
+}
+
+#hola{
+	background-color: rgb(196, 213, 29);
+	/*display: block;*/
+}
+
+#rinoceronte{
+	color: rgb(33, 0, 108);
+}
+
+#panelBotones{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#botonaso{
+	margin-top: 200px;
+	width: 150px;
+	height: 80px;
+	background-color: rgb(255, 0, 23);
+}
+
+#botonsito{
+	margin-top: 200px;
+	width: 150px;
+	height: 80px;
+	background-color: rgb(0, 81, 255);
+}
+
+#botonsuelo{
+	margin-top: 200px;
+	width: 150px;
+	height: 80px;
+	background-color: rgb(20, 192, 64);
+}
+
+#botonsin{
+	margin-top: 200px;
+	width: 150px;
+	height: 80px;
+	background-color: rgb(184, 184, 11);
+}
+
+#botonton{
+	margin-top: 200px;
+	width: 150px;
+	height: 80px;
+	background-color: rgb(175, 10, 175);
+}
+
+#imagenes {
+	/*flex-basis: 50px;*/
+	display: flex;
+	flex-direction: column;
+}
+
+#imagenes img{
+	width: 64px;
+	height: 64px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
