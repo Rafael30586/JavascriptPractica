@@ -1,23 +1,31 @@
 const cajas = document.getElementsByClassName("contenedor");
 const superCaja = document.getElementById("superContenedor");
 const botonAmarillo = document.getElementById("botonAmarillo");
+const boton1 = document.getElementById("boton1");
 
 
 
-botonAmarillo.addEventListener("click",colorear());
+botonAmarillo.addEventListener("click",colorear);
+boton1.addEventListener("click",rojear);
 
 function colorear(){
 	superCaja.setAttribute("class","amarillo");
 }
 
+function rojear(){
+	for(let i=cajas.length-1;i>=0;i--){
+		cajas[i].setAttribute("class","rojo");
+	}
+}
+
 //superCaja.addEventListener("click",colorear());
 
-console.log(cajas);
-
+//console.log(cajas);
+/*
 for(let i=0;i<cajas.length;i++){
 	cajas[i].setAttribute("class","rojo");
 	//console.log(i);
-}
+}*/
 
 /*
 for(let c in cajas){
@@ -25,18 +33,8 @@ for(let c in cajas){
 	console.log(c);
 }*/ //no funciona
 
-for(let c in cajas){
-	console.log(c);
-}
+
 /*
 for(let c of cajas){
 	console.log(c);
 }*/
-
-for(let i=0;i<cajas.length;i++){
-	console.log(cajas[i].className);
-}
-
-for(let i=0;i<cajas.length;i++){
-	console.log(cajas[i]);
-}
