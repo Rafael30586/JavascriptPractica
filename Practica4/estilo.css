@@ -1,0 +1,8 @@
+#contenedor{
+    width: 50%;
+    background-color: bisque;
+    min-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
