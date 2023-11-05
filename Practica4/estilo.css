@@ -6,3 +6,18 @@
     margin-right: auto;
     margin-top: 50px;
 }
+
+/*
+h1{
+    margin-bottom: 0px;
+}*/
+
+h1{
+    text-align: right;
+    transition-property: opacity;
+    transition-duration: 0.4s;
+}
+
+h1:hover{
+    opacity: 0.5;
+}
