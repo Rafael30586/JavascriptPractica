@@ -5,7 +5,7 @@ body{
 
 .contenedor{
     background-color: #1e1e1e;
-    width: 75%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto; 
 }
@@ -133,4 +133,48 @@ body{
 
 #j24{
     background-color: #d354ae;
+}
+
+#j25{
+    background-color: #b94b20;
+}
+
+#j26{
+    background-color: #92b500;
+}
+
+#j27{
+    background-color: #6fe3bd;
+}
+
+#j28{
+    background-color: #975cc2;
+}
+
+#j29{
+    background-color: #fbe54b;
+}
+
+#j30{
+    background-color: #2b3adc;
+}
+
+#j31{
+    background-color: #2e6c92;
+}
+
+#j32{
+    background-color: #29a185;
+}
+
+#j33{
+    background-color: #0532a7;
+}
+
+#j34{
+    background-color: #ae4a32;
+}
+
+#j35{
+    background-color: #b771a3;
 }
