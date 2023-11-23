@@ -2,7 +2,7 @@ const contenedor = document.getElementById("contenedor");
 let elementos = [];
 let h1;
 let texto;
-let tamanio = 12;
+let tamanio = 13;
 
 
 
