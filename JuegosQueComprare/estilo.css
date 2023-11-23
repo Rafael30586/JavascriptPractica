@@ -1,12 +1,89 @@
+body{
+    background-color: #1e1e1e;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .contenedor{
     background-color: #1e1e1e;
     width: 75%;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .juego{
     color: whitesmoke;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+
+.juego:hover{
+    opacity: 0.85;
 }
 
 .t-o{
-    color: #1e1e1e;
+    color: #050505;
+}
+
+.nombre-juego{
+    margin-left: 5px;
+}
+
+.plataforma{
+    margin-left: auto;
+}
+
+#j1{
+    background-color: #db4019;
+    /*border-top-right-radius: 5%;*/
+}
+
+#j2{
+    background-color: #ffc7bf;
+}
+
+#j3{
+    background-color: #bbb869;
+}
+
+#j4{
+    background-color: #af11bc;
+}
+
+#j5{
+    background-color: #96c1e6;
+}
+
+#j6{
+    background-color: #b8b874;
+}
+
+#j7{
+    background-color: #431bfd;
+}
+
+#j8{
+    background-color: #928313;
+}
+
+#j9{
+    background-color: #467fc2;
+}
+
+#j10{
+    background-color: #2f8768;
+}
+
+#j11{
+    background-color: #00d5ff;
+}
+
+#j12{
+    background-color: #e2003f;
+}
+
+#j13{
+    background-color: #5daeaa;
 }
