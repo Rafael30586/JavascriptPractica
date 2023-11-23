@@ -33,6 +33,9 @@ body{
 
 .plataforma{
     margin-left: auto;
+    border-left-width: 2px;
+    border-left-style: solid;
+    padding-left: 5px;
 }
 
 #j1{
@@ -86,4 +89,48 @@ body{
 
 #j13{
     background-color: #5daeaa;
+}
+
+#j14{
+    background-color: #4f9f76;
+}
+
+#j15{
+    background-color: #bc6f5a;
+}
+
+#j16{
+    background-color: #9c268f;
+}
+
+#j17{
+    background-color: #9067fa;
+}
+
+#j18{
+    background-color: #556ba7;
+}
+
+#j19{
+    background-color: #ff2f3e;
+}
+
+#j20{
+    background-color: #ef3cbe;
+}
+
+#j21{
+    background-color: #1a7522;
+}
+
+#j22{
+    background-color: #da9bb4;
+}
+
+#j23{
+    background-color: #785c39;
+}
+
+#j24{
+    background-color: #d354ae;
 }
