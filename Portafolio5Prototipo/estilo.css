@@ -1,0 +1,74 @@
+#contenedor{
+    width: 100%;
+}
+
+.fila{
+    margin-bottom: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 0.8%;
+}
+
+.colores{
+    width: 200px;
+    height: 90%;
+}
+
+.contenedor{
+    border-radius: 2%;
+}
+
+#contenedorNeon{
+    height: 200px;
+    width: 95%;
+    background-color:#4e4e4e;
+}
+
+#contenedor #contenedorNeon .colores{
+    background: linear-gradient(to bottom ,#62f1f8,#6df54f,#edf54f,#fa5777);
+}
+
+/*#fa5777*/
+
+#contenedorLava{
+    height: 200px;
+    width: 95%;
+    background-color:#4e4e4e;
+}
+
+#contenedor #contenedorLava .colores{
+    background: linear-gradient(to bottom,#a40700, #fc0b00, #f74300, #f3f76a,#f3f76a, #6b24e7);
+}
+
+#contenedorVolt{
+    height: 200px;
+    width: 95%;
+    background-color:#4e4e4e;
+}
+
+#contenedor #contenedorVolt .colores{
+    background: linear-gradient(to bottom,#2029e8,#e8ee2d,#feffd8);
+}
+
+#contenedorToy{
+    height: 200px;
+    width: 95%;
+    background-color:white;
+    display: flex;
+}
+
+#contenedor #contenedorToy #color1{
+    background: linear-gradient(to bottom,#12bf04, #6bdc01 );
+}
+
+#contenedor #contenedorToy #color2{
+    background: linear-gradient(to bottom,#ec0e15, #da1d0a );
+}
+
+#contenedor #contenedorToy #color3{
+    background: linear-gradient(to bottom,#dbdf04, #eef81a );
+}
+
+#contenedor #contenedorToy #color4{
+    background: linear-gradient(to bottom,#060fce, #232cda);
+}
