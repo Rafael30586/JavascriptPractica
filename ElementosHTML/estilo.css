@@ -1,8 +1,23 @@
+body{
+    background-color:  #3a3a3b;
+    color: aliceblue;
+}
+
 input{
     margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 #boton{
     background-color: #52a709;
+    background: linear-gradient(to bottom,#52a709,#07c14c);
     width: 100px;
+}
+
+#centrado{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to bottom,#eef868,#ffad97);
+    margin-left: auto;
+    margin-right: auto;
 }
