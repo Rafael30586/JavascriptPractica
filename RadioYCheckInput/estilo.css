@@ -1,0 +1,15 @@
+.contenedor{
+    margin-top: 20px;
+    width: 200px;
+    padding: 30px;
+    border-radius: 1%;
+    margin-left: 40px;
+}
+
+#c1{
+    background-color: #6ac0c3;
+}
+
+#c2{
+    background-color: #fe21c2;
+}
