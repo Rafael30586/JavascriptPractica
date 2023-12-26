@@ -20,6 +20,8 @@ body{
     border-width: 1px;
     /*border-color: #e8193a;*/
     border-color: var(--colorPrincipal);
+    border-bottom-color: var(--colorSecundario);
+    border-right-color: var(--colorSecundario);
 }
 
 .formulario{
@@ -57,11 +59,32 @@ body{
     transition-property: color;
     padding-bottom: 30px;
     font-size: large;
+    margin-bottom: 50px;
 }
 
 #contenedorAyuda:hover{
     color: var(--blanquito);
-    border-color: var(--blanquito);
+    /*border-color: var(--blanquito);*/
+}
+
+#instrucciones{
+    color: var(--colorPrincipal);
+    transition-property: color;
+    transition-duration: 0.6s;
+}
+
+#instrucciones:hover{
+    color: var(--blanquito);
+}
+
+#ejemplo{
+    color: var(--colorSecundario);
+    transition-property: color;
+    transition-duration: 0.6s;
+}
+
+#ejemplo:hover{
+    color: var(--blanquito);
 }
 
 
