@@ -24,6 +24,16 @@ body{
     border-right-color: var(--colorSecundario);
 }
 
+#contenedorOpciones{
+    filter: brightness(30%);
+    transition-duration: 0.6s;
+    transition-property: filter;
+}
+
+#contenedorOpciones:hover{
+    filter: brightness(105%);
+}
+
 .formulario{
     width: 86%;
     height: 120px;
