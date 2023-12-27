@@ -7,6 +7,7 @@
     --color6: #252525;
     --color7: #1d7afd;
     --color8: #645ccc;
+    --color9: #545454;
 }
 
 body{
@@ -63,6 +64,7 @@ h2{
 #formularioObra:hover{
     opacity: 1;
     filter: brightness(105%);
+    background: linear-gradient(to right,var(--color5),var(--color9));
 }
 
 #formularioVolver{
