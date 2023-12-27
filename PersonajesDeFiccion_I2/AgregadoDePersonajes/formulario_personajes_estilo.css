@@ -10,6 +10,15 @@
     --color9: #545454;
 }
 
+@keyframes exito{
+    0% {filter: brightness(120%);}
+    20% {filter: brightness(30%);}
+    40% {filter: brightness(120%);}
+    60% {filter: brightness(30%);}
+    80% {filter: brightness(120%);}
+    100% {filter: brightness(30%)}
+}
+
 body{
     background-color: var(--color5);
 }
@@ -21,6 +30,21 @@ body{
     margin-top: 100px;
     font-family: 'Courier New', Courier, monospace;
     /*background: linear-gradient(to bottom,var(--color2),var(--color1));*/
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#exito{
+    color: var(--color2);
+    animation-name: exito;
+    animation-duration: 2s;
+}
+
+#error{
+    color: var(--color1);
 }
 
 h2{

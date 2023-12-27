@@ -11,12 +11,12 @@
 }
 
 @keyframes exito{
-    0% {filter: brightness(110%);}
-    20% {filter: brightness(40%);}
-    40% {filter: brightness(110%);}
-    60% {filter: brightness(40%);}
-    80% {filter: brightness(110%);}
-    100% {filter: brightness(40%)}
+    0% {filter: brightness(120%);}
+    20% {filter: brightness(30%);}
+    40% {filter: brightness(120%);}
+    60% {filter: brightness(30%);}
+    80% {filter: brightness(120%);}
+    100% {filter: brightness(30%)}
 }
 
 body{
@@ -32,9 +32,9 @@ body{
     /*background: linear-gradient(to bottom,var(--color2),var(--color1));*/
 }
 
-h3{
+h1{
     text-align: center;
-    letter-spacing: 5px;
+    padding-bottom: 20px;
 }
 
 #exito{
