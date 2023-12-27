@@ -58,7 +58,7 @@ h2{
     opacity: 0.85;
     transition-property: opacity,filter;
     transition-duration: 0.5s;
-    filter: brightness(90%);
+    filter: brightness(30%);
 }
 
 #formularioPersonaje:hover{
@@ -73,8 +73,8 @@ h2{
 
 input{
     margin-top: 10px;
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     background-color: var(--color6);
     color: var(--color4);
     border: none;
@@ -91,8 +91,8 @@ input{
 
 select{
     margin-top: 10px;
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
     background-color: var(--color6);
     color: var(--color4);
     border-style: solid;

@@ -58,7 +58,7 @@ h2{
     opacity: 0.85;
     transition-property: opacity,filter;
     transition-duration: 0.5s;
-    filter: brightness(90%);
+    filter: brightness(30%);
 }
 
 #formularioObra:hover{
