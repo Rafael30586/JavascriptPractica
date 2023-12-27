@@ -4,6 +4,7 @@
     --color3: #f3f4ec;
     --color4: #ffffff; /*Blanco*/
     --color5: #303030;
+    --color6: #252525;
 }
 
 body{
@@ -47,26 +48,25 @@ input{
     margin-top: 10px;
     width: 40%;
     margin-left: 30%;
-    background-color: var(--color5);
+    background-color: var(--color6);
     color: var(--color4);
     border: none;
     border-bottom-style: solid;
     border-bottom-color: var(--color1);
     border-bottom-width: 1px;
     color: var(--color2);
-}
-
-#inputLanzamiento{
-    border-right-style: solid;
-    border-right-width: 3px;
-    border-right-color: var(--color1);
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
 }
 
 select{
     margin-top: 10px;
     width: 40%;
     margin-left: 30%;
-    background-color: var(--color5);
+    background-color: var(--color6);
     color: var(--color4);
     border-style: solid;
     border-width: 1px;
@@ -75,19 +75,18 @@ select{
     color: var(--color2);
     border-top-color: var(--color2);
     border-left-color: var(--color2);
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
 
 button{
     border: none;
-    border-style: solid;
-    border-width: 1px;
-    border-color: var(--color4);
-    border-top-color: var(--color3);
-    background-color: transparent;
+    background: linear-gradient(to bottom, var(--color2),var(--color1));
     border-radius: 5%;
     width: 20%;
     height: 40px;
-    color: var(--color3);
+    color: var(--color5);
     font-weight: 700;
     margin-left: 40%;
     transition-property: color, background-color;
@@ -95,8 +94,7 @@ button{
 }
 
 button:hover{
-    background-color: var(--color4);
-    color: var(--color1);
+    background: linear-gradient(to bottom,var(--color2),var(--color2));
 }
 
 #botonEnviar{
