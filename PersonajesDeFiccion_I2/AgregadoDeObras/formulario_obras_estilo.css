@@ -69,7 +69,7 @@ h2{
 
 #formularioObra{
     /*border-bottom-style: solid;*/
-    border-top-style: solid;
+    /*border-top-style: solid;*/
     /*border-bottom-color: var(--color1);*/
     border-top-color: var(--color2);
     border-radius: 1%;

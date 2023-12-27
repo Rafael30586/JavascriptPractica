@@ -3,6 +3,10 @@
     --color2: #280be5;
     --color3: #3e63be;
     --color4: #c5b33c;
+    --color5: #f011f1;
+    --color6: #545454;
+    --color7: #252525;
+    --color8: #ffedfd;
 }
 
 body{
@@ -16,6 +20,66 @@ body{
     margin-top: 100px;
 }
 
+.formulario{
+    border-color: var(--color2);
+    border-top-color: var(--color5);
+    border-radius: 1%;
+    border-style: groove;
+    border-width: 6px;
+    border-left-color: var(--color5);
+    padding-bottom: 20px;
+    opacity: 0.85;
+    transition-property: opacity,filter;
+    transition-duration: 0.5s;
+    filter: brightness(30%);
+    margin-top: 10px;
+}
+
+.formulario:hover{
+    opacity: 1;
+    filter: brightness(100%);
+    background: linear-gradient(to right,var(--color1),var(--color6));
+}
+
+input{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color2);
+    border-bottom-width: 1px;
+    color: var(--color8);
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 900;
+    background-color: var(--color7);
+}
+
+button{
+    border: none;
+    background: linear-gradient(to bottom, var(--color5),var(--color2));
+    border-radius: 5%;
+    width: 20%;
+    height: 40px;
+    color: wheat;
+    font-weight: bold;
+    margin-left: 40%;
+    transition-property: color, background-color;
+    transition-duration: 0.6s;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover{
+    background: linear-gradient(to bottom,var(--color5),var(--color5));
+}
+
 #obras{
     border-style: outset;
     padding: 5px;
@@ -24,6 +88,8 @@ body{
     border-right-color: var(--color3);
     border-left-color: var(--color4);
     border-top-color: var(--color4);
+    width: 100%;
+    margin-top: 20px;
 }
 
 .encabezado{
