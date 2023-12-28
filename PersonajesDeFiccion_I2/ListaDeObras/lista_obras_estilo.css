@@ -31,6 +31,26 @@ body{
     margin-top: 30px;
 }
 
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--color4);
+    text-align: left;
+}
+
+h1 span{
+    color: var(--color4);
+    animation-name: resultado;
+    animation-duration: 2s;
+}
+
+#resultados{
+    border-style: double;
+    border-color: var(--color3);
+    border-width: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
 .formulario{
     border-color: var(--color3);
     border-top-color: var(--color4);
@@ -109,17 +129,6 @@ button:hover{
     background: linear-gradient(to bottom,var(--color4),var(--color4));
 }
 
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: var(--color4);
-    text-align: left;
-}
-
-h1 span{
-    color: var(--color4);
-    animation-name: resultado;
-    animation-duration: 2s;
-}
 
 #obras{
     border-style: outset;
