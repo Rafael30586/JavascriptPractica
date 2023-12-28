@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="lista_personajes_estilo.css">
+	<title></title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Resultados:<span id="resultados">3</span></h1>
+        <h1>Mensaje de error segun el caso</h1>
+        <div class="formulario">
+            <h2>Mostrar persona<span>je por Id</span></h2>
+            <form>
+                <input type="number" name="Id" placeholder="Id del personaje"><br>
+                <button class="botonFiltrar" type="submit" id="porTitulo">Ver Personaje</button>
+            </form>
+        </div>
+        <div class="formulario">
+            <h2>Buscar por nombr<span>e o apodo</span></h2>
+            <form>
+                <input type="text" name="nombre" placeholder="Primeras letras"><br>
+                <button class="botonFiltrar" type="submit" id="porFechaLanzamiento">Filtrar</button>
+            </form>
+        </div>
+        
+        <table id="obras">
+            <thead>
+                <tr class="encabezado">
+                    <td>Id</td>
+                    <td>Nombre</td>
+                    <td>Apodo</td>
+                    <td>Obra</td>
+                    <td>Año</td>
+                </tr>
+        
+            </thead>
+            <tbody>
+                <tr class="fila">
+                    <td>1</td>
+                    <td>Sonic</td>
+                    <td></td>
+                    <td>Sonic the hedgehog 2</td>
+                    <td>1990</td>
+                </tr>
+                <tr class="fila">
+                    <td>2</td>
+                    <td>Mario</td>
+                    <td></td>
+                    <td>Super Mario bros 3</td>
+                    <td>1988</td>
+                </tr>
+                <tr class="fila">
+                    <td>3</td>
+                    <td>Anderson</td>
+                    <td>Neo</td>
+                    <td>Matrix</td>
+                    <td>1999</td>
+                </tr>
+        
+            </tbody>
+        </table>
+
+        <div id="formularioVolver">
+            <form>
+                <button id="botonVolver" type="submit">Volver a página de inicio</button>
+            </form>
+        </div>
+        
+
+    </div>
+
+  
+</body>
+</html>
