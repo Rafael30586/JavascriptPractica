@@ -26,6 +26,8 @@ h1 span{
     padding-right: 10px;
     color: var(--color2);
     border-color: var(--color3);
+    border-left-color: var(--color2);
+    border-top-color: var(--color2);
 }
 
 .imagen{
@@ -39,4 +41,7 @@ img{
     object-fit: contain;
     object-position: center;
     border-style: outset;
+    border-color: var(--color3);
+    border-left-color: var(--color2);
+    border-top-color: var(--color2);
 }
