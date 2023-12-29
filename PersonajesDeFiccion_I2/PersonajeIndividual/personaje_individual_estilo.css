@@ -22,6 +22,7 @@ h1{
     text-align: center;
     margin-top: 30px;
     font-family: 'Courier New', Courier, monospace;
+    padding-right: 7px;
 }
 
 h1 span{
@@ -42,7 +43,7 @@ h1 span{
 }
 
 img{
-    width: 750px;
+    width: 799px;
     object-fit: contain;
     object-position: center;
     border-style: outset;
@@ -71,7 +72,7 @@ button{
 #botonVolver{
     margin-bottom: 20px;
     width: 30%;
-    margin-left: 35%;
+    margin-left: 33%;
     background: linear-gradient(to bottom,var(--color5),var(--color6));
     color: whitesmoke;
     height: 60px;
