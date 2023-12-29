@@ -7,6 +7,8 @@
     --color8: #ffedfd;
     --color9: #02079a;
     --color10:#f2ed4e;
+    --color11:#506dfc;
+    --color12: #06c00c;
 }
 
 @keyframes resultado{
@@ -70,6 +72,24 @@ h1 span{
     background: linear-gradient(to right,var(--color1),var(--color6));
 }
 
+#mostrarPersonaje{
+    border-color: var(--color12);
+    border-top-color: var(--color11);
+    border-left-color: var(--color11);
+}
+
+#mostrarPersonaje form input{
+    border-bottom-color: var(--color12);
+}
+
+#mostrarPersonaje form button{
+    background: linear-gradient(to bottom, var(--color11),var(--color12));
+}
+
+#mostrarPersonaje form button:hover{
+    background: linear-gradient(to bottom, var(--color11),var(--color11));
+}
+
 h2{
     text-align: center;
     color: var(--color4);
@@ -86,6 +106,15 @@ h2{
 
 h2 span{
     color: var(--color3);
+}
+
+#h2Personaje{
+    color: var(--color11);
+    border-bottom-color: var(--color12);
+}
+
+#h2Personaje span{
+    color: var(--color12);
 }
 
 input{
@@ -128,7 +157,7 @@ button:hover{
 }
 
 
-#obras{
+#personajes{
     border-style: outset;
     padding: 5px;
     font-family: 'Courier New', Courier, monospace;
