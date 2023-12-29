@@ -1,0 +1,31 @@
+:root{
+    --color1:#303030;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+.contenedor{
+    width: 90%;
+    margin-left: 5%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imagen{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 750px;
+    object-fit: contain;
+    object-position: center;
+    border-style: outset;
+}
