@@ -76,6 +76,7 @@ h1 span{
     border-color: var(--color12);
     border-top-color: var(--color11);
     border-left-color: var(--color11);
+    margin-top: 20px;
 }
 
 #mostrarPersonaje form input{
