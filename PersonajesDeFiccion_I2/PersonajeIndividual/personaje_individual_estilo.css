@@ -62,7 +62,6 @@ button{
     border-radius: 5%;
     height: 40px;
     font-weight: bold;
-    margin-left: 40%;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     cursor: pointer;
@@ -72,7 +71,7 @@ button{
 #botonVolver{
     margin-bottom: 20px;
     width: 30%;
-    margin-left: 33%;
+    margin-left: 35%;
     background: linear-gradient(to bottom,var(--color5),var(--color6));
     color: whitesmoke;
     height: 60px;
