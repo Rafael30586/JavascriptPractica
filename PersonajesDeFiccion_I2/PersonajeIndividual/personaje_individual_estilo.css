@@ -1,5 +1,7 @@
 :root{
     --color1:#303030;
+    --color2:#f6e1e9;
+    --color3:#6259d4;
 }
 
 body{
@@ -15,6 +17,15 @@ h1{
     text-align: center;
     margin-top: 30px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+h1 span{
+    border-style: double;
+    border-width: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: var(--color2);
+    border-color: var(--color3);
 }
 
 .imagen{
