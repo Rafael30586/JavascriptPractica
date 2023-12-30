@@ -7,6 +7,15 @@
     --color6:#780702;
 }
 
+@keyframes nombreOApodo{
+    0% {filter: brightness(120%);}
+    20% {filter: brightness(30%);}
+    40% {filter: brightness(120%);}
+    60% {filter: brightness(30%);}
+    80% {filter: brightness(120%);}
+    100% {filter: brightness(30%)}
+}
+
 body{
     /*background-color: var(--color1);*/
     /*background: radial-gradient(var(--color1),var(--color4));*/
@@ -34,6 +43,11 @@ h1 span{
     border-color: var(--color3);
     border-left-color: var(--color2);
     border-top-color: var(--color2);
+}
+
+#nombre{
+    animation-name: nombreOApodo;
+    animation-duration: 4s;
 }
 
 .imagen{
