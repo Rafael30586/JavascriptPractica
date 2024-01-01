@@ -100,3 +100,52 @@ button{
     background: linear-gradient(to bottom,var(--color5),var(--color5));
     opacity: 0.8;
 }
+
+@media only screen and (orientation:portrait),(max-width:800px){
+    h1{
+        font-size: x-large;
+        padding-right: 0px;
+        padding-left: 4px;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    h1{
+        font-size: medium;
+        padding-right: 0px;
+        padding-left: 4px;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:900px){
+    .imagen{
+        width: 600px;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    .imagen{
+        width: 400px;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:900px){
+    img{
+        width: 599px;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    img{
+        width: 399px;
+    }
+}
+
+
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    #botonVolver{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
