@@ -199,3 +199,41 @@ td{
     opacity: 0.8;
 }
 
+@media only screen and (orientation:portrait),(max-width:900px){
+    .contenedor{
+        width: 90%;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:900px){
+    h1{
+        font-size: medium;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:900px){
+    h2{
+        font-size: large;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:900px){
+    button{
+        width: 30%;
+        margin-left: 35%;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:900px){
+    #obras thead tr td{
+        font-size: small;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:900px){
+    #obras{
+        font-size: small;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
