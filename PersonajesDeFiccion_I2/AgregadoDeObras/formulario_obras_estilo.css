@@ -170,3 +170,9 @@ button:hover{
 #botonVolver:hover{
     background: linear-gradient(to bottom,var(--color7),var(--color7));
 }
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    .contenedor{
+        width: 90%;
+    }
+}
