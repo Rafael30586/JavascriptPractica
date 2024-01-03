@@ -136,6 +136,24 @@ input{
     background-color: var(--color7);
 }
 
+select{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: var(--color12);
+    border-bottom-width: 1px;
+    color: var(--color11);
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: 900;
+    background-color: var(--color7);
+}
+
 button{
     border: none;
     background: linear-gradient(to bottom, var(--color4),var(--color3));
