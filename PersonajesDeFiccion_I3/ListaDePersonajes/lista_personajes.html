@@ -14,52 +14,60 @@
         <div class="formulario">
             <h2>Buscar por nombr<span>e o apodo</span></h2>
             <form>
-                <input type="text" name="nombre" placeholder="Primeras letras"><br>
+                <input type="text" name="nombre" placeholder="Primeras letras" class="inputFiltro"><br>
                 <button type="submit">Filtrar</button>
             </form>
         </div>
-        
-        <table id="personajes">
-            <thead>
-                <tr class="encabezado">
-                    <td>Id</td>
-                    <td>Nombre</td>
-                    <td>Apodo</td>
-                    <td>Obra</td>
-                    <td>Año</td>
-                </tr>
-        
-            </thead>
-            <tbody>
-                <tr class="fila">
-                    <td>1</td>
-                    <td>Sonic</td>
-                    <td></td>
-                    <td>Sonic the hedgehog 2</td>
-                    <td>1990</td>
-                </tr>
-                <tr class="fila">
-                    <td>2</td>
-                    <td>Mario</td>
-                    <td></td>
-                    <td>Super Mario bros 3</td>
-                    <td>1988</td>
-                </tr>
-                <tr class="fila">
-                    <td>3</td>
-                    <td>Anderson</td>
-                    <td>Neo</td>
-                    <td>Matrix</td>
-                    <td>1999</td>
-                </tr>
-        
-            </tbody>
-        </table>
+        <form>
+            <table id="personajes">
+                <thead>
+                    <tr class="encabezado">
+                        <td>Id</td>
+                        <td>Nombre</td>
+                        <td>Apodo</td>
+                        <td>Obra</td>
+                        <td>Año</td>
+                        <td>Elegir</td>
+                    </tr>
+            
+                </thead>
+                <tbody>
+                    <tr class="fila">
+                        <td>1</td>
+                        <td>Sonic</td>
+                        <td></td>
+                        <td>Sonic the hedgehog 2</td>
+                        <td>1990</td>
+                        <td><input type="radio" id="html" name="fav_language" value="HTML" class="radioBoton"></td>
+                    </tr>
+                    <tr class="fila">
+                        <td>2</td>
+                        <td>Mario</td>
+                        <td></td>
+                        <td>Super Mario bros 3</td>
+                        <td>1988</td>
+                        <td><input type="radio" id="css" name="fav_language" value="CSS" class="radioBoton"></td>
+                    </tr>
+                    <tr class="fila">
+                        <td>3</td>
+                        <td>Anderson</td>
+                        <td>Neo</td>
+                        <td>Matrix</td>
+                        <td>1999</td>
+                        <td><input type="radio" id="js" name="fav_language" value="Javasript" class="radioBoton"></td>
+                    </tr>
+                </tbody>
+            </table>
 
+            <button type="submit" id="botonVer">Ver Personaje</button>
+
+        </form>
+        
+        <!--
         <div class="formulario" id="mostrarPersonaje">
             <h2 id="h2Personaje">Mostrar person<span>aje</span></h2>
             <form>
-                <!--<input type="number" name="Id" placeholder="Id del personaje"><br>-->
+                <input type="number" name="Id" placeholder="Id del personaje"><br>
                 <select>
                     <option value="Video Juego">Link - Ocarina of Time</option>
                     <option value="Comic">Cloud - Final fantasy VII</option>
@@ -69,7 +77,7 @@
                 </select>
                 <button type="submit" id="botonVer">Ver Personaje</button>
             </form>
-        </div>
+        </div>-->
 
         <div id="formularioVolver">
             <form>

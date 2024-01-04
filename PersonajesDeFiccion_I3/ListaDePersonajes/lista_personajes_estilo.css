@@ -72,6 +72,8 @@ h1 span{
     background: linear-gradient(to right,var(--color1),var(--color6));
 }
 
+/*
+
 #mostrarPersonaje{
     border-color: var(--color12);
     border-top-color: var(--color11);
@@ -89,7 +91,7 @@ h1 span{
 
 #mostrarPersonaje form button:hover{
     background: linear-gradient(to bottom, var(--color11),var(--color11));
-}
+}*/
 
 h2{
     text-align: center;
@@ -118,7 +120,7 @@ h2 span{
     color: var(--color12);
 }
 
-input{
+.inputFiltro{
     margin-top: 10px;
     width: 50%;
     margin-left: 25%;
@@ -134,6 +136,12 @@ input{
     font-size: large;
     font-weight: 900;
     background-color: var(--color7);
+}
+
+.radioBoton{
+    margin-left: 30px;
+    height: 20px;
+    width: 20px;
 }
 
 select{
@@ -245,7 +253,7 @@ td{
     opacity: 0.8;
 }
 
-@media only screen and (orientation:portrait),(max-width:700px){
+@media only screen and (orientation:portrait),(max-width:850px){
     .contenedor{
         width: 90%;
     }
@@ -263,7 +271,7 @@ td{
     }
 }
 
-@media only screen and (orientation:portrait),(max-width:700px){
+@media only screen and (orientation:portrait),(max-width:850px){
     button{
         width: 30%;
         margin-left: 35%;
@@ -285,7 +293,27 @@ td{
 }
 
 @media only screen and (orientation:portrait),(max-width:700px){
-    input{
+    .inputFiltro{
         font-size: medium;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    .radioBoton{
+        margin-left: 10px;
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    .encabezado{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    .fila{
+        font-size: 12px;
     }
 }
