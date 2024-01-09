@@ -12,13 +12,16 @@ function saludar(){
 
 function armarJSON(){
     obraObjeto = {
-    id:0,titulo:inputTitulo.value,anioLanzamiento:inputLanzamiento.valueAsNumber,
+    id:null,titulo:inputTitulo.value,anioLanzamiento:inputLanzamiento.valueAsNumber,
     clasificacion:selectClasificacion.value,   
     }
 
-    obraJSON = JSON.stringify(obraObjeto);
+    obraJSON = JSON.stringify(obraObjeto); //JSON.parse revierte este proceso si se aplica a obraJSON
 }
 
 armarJSON();
 
 botonEnviar.addEventListener("click",saludar);
+
+//Habria que hacer un fetch enviando el json y usando el id de la obra como parametro para la...
+//...@RequestParam del controlador
