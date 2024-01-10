@@ -1,3 +1,4 @@
+let url = "localhot:8080/obras"
 let botonEnviar = document.getElementById("botonEnviar");
 let obraSeleccionada = document.getElementById("selectObra"); //con .value accedo al elemento seleccionado
 let inputTitulo = document.getElementById("inputTitulo"); //.value
