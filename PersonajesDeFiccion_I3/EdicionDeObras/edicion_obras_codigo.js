@@ -41,7 +41,7 @@ async function editarPersonaje(){
     }).then(alert("Obra editada correctamente"));
 }
 
-botonEnviar.addEventListener("click",armarJSON);
+botonEnviar.addEventListener("click",editarPersonaje);
 
 //Habria que hacer un fetch enviando el json y usando el id de la obra como parametro para la...
 //...@RequestParam del controlador
