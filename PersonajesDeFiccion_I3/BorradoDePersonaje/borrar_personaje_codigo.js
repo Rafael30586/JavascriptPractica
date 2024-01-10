@@ -15,7 +15,8 @@ function obtenerId(){
 }
 
 async function borrarPersonaje(){
-    await fetch(urlCompleta+idPersonaje,{
+    obtenerId();
+    await fetch(urlCompleta,{
         method: 'DELETE',/*
         headers:{
             'Content-Type':'application/json'
