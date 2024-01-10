@@ -1,4 +1,5 @@
-let url = "localhot:8080/obras"
+let url = "localhot:8080/obras/editada?id=";
+let urlCompleta;
 let botonEnviar = document.getElementById("botonEnviar");
 let obraSeleccionada = document.getElementById("selectObra"); //con .value accedo al elemento seleccionado
 let inputTitulo = document.getElementById("inputTitulo"); //.value
@@ -18,11 +19,29 @@ function armarJSON(){
     }
 
     obraJSON = JSON.stringify(obraObjeto); //JSON.parse revierte este proceso si se aplica a obraJSON
+    console.log(obraJSON);
+    console.log(obraObjeto);
 }
 
-armarJSON();
+function armarUrl(){
+    urlCompleta = url + obraSeleccionada.value;
+    console.log(urlCompleta);
+}
 
-botonEnviar.addEventListener("click",saludar);
+//armarJSON();
+
+async function editarPersonaje(){
+    armarJSON();
+    armarUrl();
+    await fetch(urlCompleta,{
+        method: 'PUT',
+        headers:{
+            'Content-Type': 'application/json',
+        },body: obraJSON,
+    }).then(alert("Obra editada correctamente"));
+}
+
+botonEnviar.addEventListener("click",armarJSON);
 
 //Habria que hacer un fetch enviando el json y usando el id de la obra como parametro para la...
 //...@RequestParam del controlador
