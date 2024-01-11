@@ -10,6 +10,7 @@ let botonRecarga2 = document.getElementById("botonRecarga2");
 let botonRecarga3 = document.getElementById("botonRecarga3");
 let botonRecarga4 = document.getElementById("botonRecarga4");
 let botonColorear = document.getElementById("botonColorear");
+let cosas = document.getElementById("cosas");
 
 function colorearFondo(){
     body.style.backgroundColor = color1.value;
@@ -40,9 +41,12 @@ function recargarPagina4(){
 console.log(color1);
 console.log(color1.value);
 
+alert(cosas.value);
+
 boton.addEventListener("click",colorearFondo);
 botonRecarga.addEventListener("click",recargarPagina);
 botonRecarga2.addEventListener("click",recargarPagina2);
 botonRecarga3.addEventListener("click",recargarPagina3);
 botonRecarga4.addEventListener("click",recargarPagina4);
 botonColorear.addEventListener("click",colorearFondo2);
+cosas.addEventListener("change",recargarPagina);
