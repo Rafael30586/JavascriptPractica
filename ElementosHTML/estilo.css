@@ -19,6 +19,36 @@ input{
     border-color: #008772;
 }
 
+#botonRecarga{
+    color: white;
+    background-color: #e96a42;
+    height: 40px;
+}
+
+#botonRecarga2{
+    color: white;
+    background-color: #0973bc;
+    height: 40px;
+}
+
+#botonRecarga3{
+    color: black;
+    background-color: #76ebed;
+    height: 40px;
+}
+
+#botonRecarga4{
+    color: black;
+    background-color: #dbc375;
+    height: 40px;
+}
+
+#botonColorear{
+    color: black;
+    background-color: #0bcc63;
+    height: 40px;
+}
+
 #centrado{
     width: 200px;
     height: 200px;
@@ -27,3 +57,4 @@ input{
     margin-right: auto;
     border-radius: 2%;
 }
+

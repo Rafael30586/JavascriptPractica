@@ -1,4 +1,4 @@
-let url = "localhot:8080/obras/editada?id=";
+/*let url = "localhot:8080/obras/editada?id=";
 let urlCompleta;
 let botonEnviar = document.getElementById("botonEnviar");
 let obraSeleccionada = document.getElementById("selectObra"); //con .value accedo al elemento seleccionado
@@ -6,8 +6,10 @@ let inputTitulo = document.getElementById("inputTitulo"); //.value
 let inputLanzamiento = document.getElementById("inputLanzamiento"); //.valueAsNumber
 let selectClasificacion = document.getElementById("selectClasificacion"); //value
 let obraObjeto = {};
-let obraJSON;
+let obraJSON;*/
 
+
+/*
 function saludar(){
     alert("Hola mundo");
 }
@@ -39,9 +41,11 @@ async function editarPersonaje(){
             'Content-Type': 'application/json',
         },body: obraJSON,
     }).then(alert("Obra editada correctamente"));
-}
+}*/
 
-botonEnviar.addEventListener("click",editarPersonaje);
+
+/*
+botonEnviar.addEventListener("click",editarPersonaje);*/
 
 //Habria que hacer un fetch enviando el json y usando el id de la obra como parametro para la...
 //...@RequestParam del controlador
