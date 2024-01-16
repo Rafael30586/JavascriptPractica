@@ -1,4 +1,4 @@
-.contenedor{
+.contenedor, .caja{
     height: 200px;
     width: 80%;
     background-color: #e9f829;
@@ -9,4 +9,22 @@
     height: 100%;
     width: 60%;
     background-color: #28cdc1;
+}
+
+.caja{
+    margin-top: 20px;
+}
+
+button{
+    background-color: #e34aff;
+    height: 30px;
+    width: 70px;
+    margin-left: 40px;
+}
+
+input{
+    background-color: #82e2a1;
+    height: 30px;
+    width: 70px;
+    margin-left: 40px;
 }
