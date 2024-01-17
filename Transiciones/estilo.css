@@ -1,0 +1,25 @@
+body{
+    background-color: #8c9786;
+}
+
+#contenedorPrincipal{
+    height: 500px;
+    width: 300px;
+    background-color: #0b0452;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 10px;
+    transition-property: background-color ,border-color,border-bottom-color,border-right-color;
+    transition-duration: 0.5s, 1.5s,3s,2s;
+    transition-timing-function: ease-in;
+}
+
+#contenedorPrincipal:hover{
+    background-color: #003872;
+    border-color: #3124e6;
+    border-bottom-color: #4dd9ea;
+    border-right-color: #4dd9ea;
+    /*background: linear-gradient(to bottom,#003872,#a119e4);*/
+}
