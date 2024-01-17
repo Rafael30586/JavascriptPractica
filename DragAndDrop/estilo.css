@@ -1,8 +1,31 @@
-#contenedor1{
+#contenedor1 , .contenedor1{
     background-color: #87c5b6;
-    height: 300px;
-    width: 400px;
+    height: 150px;
+    width: 200px;
     margin-left: auto;
-    margin-right: auto;
     margin-top: 100px;
+    display: inline-block;
+}
+
+#contenedor2{
+    height: 150px;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+}
+
+.claseCualquiera{
+    height: 150px;
+    width: 200px;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-block;
+    background-color: #e7d925;
 }
