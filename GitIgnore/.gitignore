@@ -1,3 +1,4 @@
 ignoracion.txt
 !noignorado.txt
 *.css
+carpeta_ignorada/
