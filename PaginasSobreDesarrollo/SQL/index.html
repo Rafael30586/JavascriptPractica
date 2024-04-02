@@ -12,12 +12,46 @@
 
         <div class="seccion">
             <h2 class="titulo-seccion">Ejemplos de querys</h2>
+
             <div class="contenedor-query">
                 <span class="query">SELECT * FROM <span class="variable">tabla</span></span>
                 <p class="descripcion-query">
                     Muestra todos los datos de una tabla
                 </p>
             </div>
+
+            <div class="contenedor-query">
+                <span class="query">SELECT <span class="variable">nombre</span> 
+                FROM <span class="variable">personas</span></span>
+                <p class="descripcion-query">
+                    Muestra el nombre de todas las filas de la tabla "personas"
+                </p>
+            </div>
+
+            <div class="contenedor-query">
+                <span class="query">SELECT <span class="variable">modelo</span>, 
+                <span class="variable">marca</span> FROM <span class="variable">laptops</span>
+                WHERE <span class="variable">precio</span> = <span class="variable">1000</span></span>
+                <p class="descripcion-query">
+                    Muestra el modelo y la marca de todas las laptops donde el precio es 1000
+                </p>
+            </div>
+
+        </div>
+
+        <div class="seccion">
+            <h2 class="titulo-seccion">Tipos de datos</h2>
+            <span class="tipo-de-dato">VARCHAR(tamaño): cadenas de caracteres; 
+                el tamaño puede ser desde 0 hasta 65535.
+            </span><br><br>
+            <span class="tipo-de-dato">INT(tamaño): números enteros; 
+                el tamaño puede ser desde -9223372036854775808 a 9223372036854775807.
+            </span><br><br>
+            <span class="tipo-de-dato">DECIMAL(tamaño,d): números enteros; <br>
+                el tamaño puede ser desde -9223372036854775808 a 9223372036854775807; <br>
+                la d como parámetro determina la cantidad de dígitos después de la coma. <br>
+            </span>
+
         </div>
 
     </div>

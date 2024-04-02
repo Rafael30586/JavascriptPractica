@@ -39,3 +39,8 @@ body{
     font-weight: 600;
     color: var(--color4);
 }
+
+.tipo-de-dato{
+    font-weight: 900;
+    margin-top: 10px;
+}
