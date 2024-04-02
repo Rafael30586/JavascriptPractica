@@ -1,0 +1,41 @@
+:root{
+    --color1: #34946f;
+    --color2: #daecf1;
+    --color3: #9554c0;
+    --color4: #10a3f2;
+}
+
+body{
+    background-color: var(--color2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    color: var(--color1);
+}
+
+.titulo-seccion{
+    color: var(--color1);
+}
+
+.seccion{
+    color: var(--color1);
+    margin-left: 10px;
+}
+
+.contenedor-query{
+    border-style: double;
+    border-color: var(--color1);
+    padding: 5px;
+    font-weight: 900;
+}
+
+.variable{
+    color: var(--color3);
+}
+
+.descripcion-query{
+    font-weight: 600;
+    color: var(--color4);
+}
