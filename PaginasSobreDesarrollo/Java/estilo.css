@@ -1,8 +1,6 @@
 :root{
-    --color1: #2c8bdf; /*homeworld*/
-    --color2: #f9f7f7;
-    --color3: #9554c0;
-    --color4: #10a3f2;
+    --color1: #25c3d8;/*caribbean blue*/
+    --color2: #343434;
 }
 
 body{
@@ -22,19 +20,6 @@ body{
 .seccion{
     color: var(--color1);
     margin-left: 10px;
-}
-
-.contenedor-query{
-    background-color: var(--color1);
-    padding: 5px;
-    font-weight: 900;
-    color: var(--color2);
-    border-radius: 1%;
-    margin-bottom: 5px;
-}
-
-.descripcion-query{
-    font-weight: 600;
 }
 
 .tipo-de-dato{
