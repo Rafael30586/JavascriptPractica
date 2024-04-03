@@ -38,6 +38,10 @@ body{
 }
 
 .tipo-de-dato{
-    font-weight: 900;
+    font-weight: 600;
     margin-top: 10px;
+    color: var(--color2);
+    background-color: var(--color1);
+    padding: 5px;
+    border-radius: 1%;
 }

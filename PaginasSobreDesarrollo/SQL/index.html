@@ -14,15 +14,23 @@
             <h2 class="titulo-seccion">Ejemplos de querys</h2>
 
             <div class="contenedor-query">
-                <span>SELECT * FROM tabla</span>
-                <p class="descripcion-query">Muestra la tabla completa</p>
+                <span>SELECT * FROM tabla;</span>
+                <p class="descripcion-query">Muestra la tabla completa.</p>
             </div>
 
             <div class="contenedor-query">
-                
+                <span>SELECT nombre FROM personas;</span>
+                <p class="descripcion-query">Muestra el nombre de todas las personas de la tabla.</p>
             </div>
 
             <div class="contenedor-query">
+                <p>
+                    SELECT marca, modelo FROM computadoras 
+                    WHERE precio = 100000;
+                </p>
+                <p class="descripcion-query">
+                    Muestra la marca y el modelo de las computadoras con un precio de 100000.
+                </p>
                 
             </div>
 
@@ -30,16 +38,16 @@
 
         <div class="seccion">
             <h2 class="titulo-seccion">Tipos de datos</h2>
-            <span class="tipo-de-dato">VARCHAR(tamaño): cadenas de caracteres; 
+            <p class="tipo-de-dato">VARCHAR(tamaño): cadenas de caracteres; 
                 el tamaño puede ser desde 0 hasta 65535.
-            </span><br><br>
-            <span class="tipo-de-dato">INT(tamaño): números enteros; 
+            </p>
+            <p class="tipo-de-dato">INT(tamaño): números enteros; 
                 el tamaño puede ser desde -9223372036854775808 a 9223372036854775807.
-            </span><br><br>
-            <span class="tipo-de-dato">DECIMAL(tamaño,d): números enteros; <br>
+            </p>
+            <p class="tipo-de-dato">DECIMAL(tamaño,d): números enteros; <br>
                 el tamaño puede ser desde -9223372036854775808 a 9223372036854775807; <br>
                 la d como parámetro determina la cantidad de dígitos después de la coma. <br>
-            </span>
+            </p>
 
         </div>
 
