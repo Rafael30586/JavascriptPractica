@@ -1,6 +1,6 @@
 :root{
-    --color1: #34946f;
-    --color2: #daecf1;
+    --color1: #2c8bdf;
+    --color2: #f9f7f7;
     --color3: #9554c0;
     --color4: #10a3f2;
 }
@@ -25,19 +25,16 @@ body{
 }
 
 .contenedor-query{
-    border-style: double;
-    border-color: var(--color1);
+    background-color: var(--color1);
     padding: 5px;
     font-weight: 900;
-}
-
-.variable{
-    color: var(--color3);
+    color: var(--color2);
+    border-radius: 1%;
+    margin-bottom: 5px;
 }
 
 .descripcion-query{
     font-weight: 600;
-    color: var(--color4);
 }
 
 .tipo-de-dato{
