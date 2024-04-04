@@ -1,7 +1,7 @@
 :root{
-    --color1: #f4e3f4; 
-    --color2: #343434;
-    --color3: #f3d481;
+    --color1: #4175b9; 
+    --color2: #f6fdec;
+    --color3: #130bbd;
 }
 
 body{
@@ -30,17 +30,10 @@ body{
     color: var(--color2);
     border-radius: 1%;
     margin-bottom: 5px;
+    background: linear-gradient(to right,var(--color1),var(--color3));
 }
 
 .descripcion-comando{
     font-weight: 600;
 }
 
-.fondo-cambiante{
-    transition-duration: 0.5s;
-    transition-property: background-color;
-}
-
-.fondo-cambiante:hover{
-    background-color: var(--color3);
-}

@@ -1,7 +1,7 @@
 :root{
-    --color1: #25c3d8;/*caribbean blue*/
-    --color2: #343434;
-    --color3: #c4d2e0;
+    --color1: #005488;/*caribbean blue*/
+    --color2: #fdfdec;
+    --color3: #00aeff;
 }
 
 body{
@@ -30,13 +30,6 @@ body{
     background-color: var(--color1);
     padding: 5px;
     border-radius: 1%;
+    background: linear-gradient(to right,var(--color1),var(--color3));
 }
 
-.fondo-cambiante{
-    transition-duration: 0.5s;
-    transition-property: background-color;
-}
-
-.fondo-cambiante:hover{
-    background-color: var(--color3);
-}
