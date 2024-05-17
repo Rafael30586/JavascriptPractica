@@ -1,0 +1,67 @@
+body{
+    background-color: #747474;
+}
+
+.bi{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.bi-airplane-engines{
+    color: #63e434;
+    /*background-color: #f40697;*/
+}
+
+.bi-brightness-high{
+    color: #f40697;
+}
+
+.bi-battery-half{
+    color: #c0e79d;
+}
+
+.bi-controller{
+    color: #2804e8;
+}
+
+.bi-cpu-fill{
+    color: #3742e2;
+}
+
+.bi-fire{
+    color: #cfce61;
+}
+
+.bi-moon-stars-fill{
+    color: #f98e4c;
+}
+
+.bi-nintendo-switch{
+    color: #571536;
+}
+
+.bi-nvidia{
+    color: #b6ec1b;
+}
+
+.bi-plugin{
+    color: #e38cd8;
+}
+
+.bi-power{
+    color: #9811f5;
+}
+
+.bi-stars{
+    color: #35fee6;
+}
+
+.bi-whatsapp{
+    color: #d73c19;
+}
+
+.bi-xbox{
+    color: #d0121e;
+}
