@@ -22,12 +22,24 @@ body{
     color: #c0e79d;
 }
 
+#bateria{
+    color: #b9dce6;
+}
+
 .bi-controller{
     color: #2804e8;
 }
 
+#control{
+    color: #de851e;
+}
+
 .bi-cpu-fill{
     color: #3742e2;
+}
+
+#cpu{
+    color: #44b956;
 }
 
 .bi-fire{
@@ -38,8 +50,16 @@ body{
     color: #f98e4c;
 }
 
+#luna-estrellas{
+    color: #ee7219;
+}
+
 .bi-nintendo-switch{
     color: #571536;
+}
+
+#nintendo{
+    color: #20fdd0;
 }
 
 .bi-nvidia{
@@ -54,6 +74,10 @@ body{
     color: #9811f5;
 }
 
+#power{
+    color: #3695a9;
+}
+
 .bi-stars{
     color: #35fee6;
 }
@@ -65,3 +89,4 @@ body{
 .bi-xbox{
     color: #d0121e;
 }
+
