@@ -5,8 +5,10 @@
     --color4: #589920;
     --color5: #40b499;
     --color6: #dbd78b;
+    --color7: #616905;
     --fuente1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --funte2: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --tamanio-fuente: 20px;
 }
 
 body{
@@ -23,7 +25,7 @@ body{
     border-radius: 1%;
     padding: 5px;
     font-family: var(--fuente1);
-    font-size: 20px;
+    font-size: var(--tamanio-fuente);
     color: var(--color5);
     font-weight: bold;
 }
@@ -41,5 +43,9 @@ button{
 
 #boton2{
     background-color: var(--color1);
+}
+
+#boton3{
+    background-color: var(--color7);
 }
 
