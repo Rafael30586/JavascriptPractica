@@ -1,0 +1,66 @@
+
+h1{
+    color: #2e27fb;
+    background-color: #a7a8ab;
+    padding: 5px;
+}
+
+h1::before{
+    content: "Hello";
+    display: block;
+    color: #8b3fd0;
+    background-color: #1af2bd;
+    padding: 5px;
+}
+
+h1::after{
+    content: "Good-bye";
+    display: block;
+    color: #f2e51c;
+    background-color: #6d98d6;
+    padding: 5px;
+}
+
+h2{
+    color: #24bc59;
+    background-color: #e7eecd;
+    padding: 5px;
+    transition-duration: 0.5s;
+    transition-property: color;
+}
+
+h2:hover::after{
+    content: "What?";
+    display: block;
+    color: #bb1b9d;
+    background-color: #d49969;
+    padding: 5px;
+}
+
+input{
+    color: #a40f56;
+    background-color: #2491c6;
+}
+
+input:focus{
+    color: #375943;
+    background-color: #6ee911;
+}
+
+#parrafo1{
+    font-size: 20px;
+}
+
+#parrafo1::selection{
+    color: #3beff7;
+    background-color: #dc7a09;
+}
+
+#parrafo1::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#parrafo1::first-line{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
