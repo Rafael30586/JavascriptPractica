@@ -19,3 +19,26 @@
 [miatributo="rojo"]{
     background-color: #e1301c;
 }
+
+[miatributo="celeste"]{
+    background-color: #94bcf2;
+}
+
+[miatributo="amarillo"]{
+    background-color: #c4bb46;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#boton1{
+    background-color: #59a647;
+}
+
+#boton2{
+    background-color: #ecbf5e;
+}
