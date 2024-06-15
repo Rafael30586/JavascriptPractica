@@ -1,0 +1,21 @@
+.contenedor-principal{
+    background-color: #e88ff8;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contenedor{
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+[miatributo="verde"]{
+    background-color: #1bcda9;
+}
+
+[miatributo="rojo"]{
+    background-color: #e1301c;
+}
