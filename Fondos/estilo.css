@@ -3,7 +3,8 @@
     height: 500px;
     background-color: #910d31;
     background-image: url("fondo.jpg");
-    background-blend-mode:color-burn;
+    background-blend-mode:screen;
+    background-attachment: fixed;
 }
 
 /*Para el color #c1d27b, queda muy bien luminosity*/

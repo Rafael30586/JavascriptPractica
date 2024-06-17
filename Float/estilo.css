@@ -1,0 +1,13 @@
+p{
+    width: 50%;
+    padding: 5px;
+    background-color: #50a4f7;
+}
+
+img{
+    float: left;
+    width: 20%;
+    height: 30%;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
