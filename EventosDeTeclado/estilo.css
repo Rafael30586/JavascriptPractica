@@ -10,5 +10,22 @@
 #boton{
     width: 200px;
     height: 90px;
-    background-color: #717b31;
+    /*
+    background-color: #717b31;*/
+}
+
+[color="rojo"]{
+    background-color: #aa2e07;
+}
+
+[color="azul"]{
+    background-color: #2062fd;
+}
+
+[color="verde"]{
+    background-color: #6b9b22;
+}
+
+[color="rosa"]{
+    background-color: #fb1884;
 }
