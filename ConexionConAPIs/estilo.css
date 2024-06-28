@@ -1,0 +1,15 @@
+.contenedor-personaje{
+    background-color: #b59b5d;
+    padding: 10px;
+    width: 300px;
+}
+
+.nombre{
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imagen{
+    width: 200px;
+    height: 200px;
+}
