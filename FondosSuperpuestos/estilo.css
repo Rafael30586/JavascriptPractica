@@ -1,0 +1,6 @@
+.contenedor-principal{
+    background-image: url(foto.jpg), url(foto2.jpg);
+    width: 30%;
+    height: 400px;
+    background-blend-mode:exclusion;
+}
