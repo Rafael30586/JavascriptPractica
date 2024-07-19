@@ -1,0 +1,25 @@
+.contenedor-principal{
+    display: flex;
+    gap: 10px;
+}
+
+.caja{
+    height: 200px;
+    width: 50px;
+    overflow: hidden;
+}
+
+#div1{
+    resize: horizontal;
+    background-color: #4af2bf;
+}
+
+#div2{
+    resize: vertical;
+    background-color: #feac30;
+}
+
+#div3{
+    resize: both;
+    background-color: #daf965;
+}
