@@ -1,0 +1,13 @@
+.contenedor-principal{
+    background-color: #be614e;
+    height: 500px;
+}
+
+h1{
+    background: linear-gradient(to bottom,#331256,#0079a8,#63c555);
+    padding: 15px;
+    background-clip: text;
+    color: transparent;
+    font-size: 110px;
+    font-weight: bold;
+}
