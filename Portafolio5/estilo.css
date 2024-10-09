@@ -25,3 +25,15 @@ section{
     margin-left: auto;
     margin-right: auto;
 }
+
+#sobre-mi p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#mi-foto{
+    width: 23%;
+    height: 23%;
+    float: right;
+    margin-left: 10px;
+}
