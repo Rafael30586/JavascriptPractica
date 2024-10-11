@@ -50,3 +50,7 @@ section{
     background-color: #e80ea7;
     padding: 5px;
 }
+
+.subcontenedor-habilidades{
+    display: flex;
+}
