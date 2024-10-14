@@ -53,4 +53,66 @@ section{
 
 .subcontenedor-habilidades{
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.habilidad-principal{
+    height: 120px;
+    width: 120px;
+}
+
+.java-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.spring-boot-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.spring-security-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.sql-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.habilidad-secundaria{
+    height: 80px;
+    width: 80px;
+}
+
+.docker-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.git-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.mongodb-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.html-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.css-icono{
+    height: 100%;
+    width: 100%;
+}
+
+.javascript-icono{
+    height: 100%;
+    width: 100%;
 }
