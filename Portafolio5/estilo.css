@@ -57,6 +57,16 @@ section{
     margin-top: 20px;
 }
 
+.habilidad-icono{
+    filter: sepia(100%);
+    transition-property: filter;
+    transition-duration: 0.5s;
+}
+
+.habilidad-icono:hover{
+    filter: sepia(0%);
+}
+
 .habilidad-principal{
     height: 120px;
     width: 120px;
@@ -75,6 +85,10 @@ section{
 .spring-security-icono{
     height: 100%;
     width: 100%;
+}
+
+.spring-security-color{
+    background-color: #58efb1;
 }
 
 .sql-icono{
