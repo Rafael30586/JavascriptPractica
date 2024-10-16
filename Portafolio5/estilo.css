@@ -137,3 +137,30 @@ h2{
     height: 100%;
     width: 100%;
 }
+
+#contenedor-contactos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor-contacto{
+    height: 120px;
+    width: 120px;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.contenedor-contacto:hover{
+    transform: scale(1.1,1.1);
+
+}
+
+.github-icono{
+    width: 100%;
+    height: 100%;
+}
+
+.linkedin-icono{
+    width: 100%;
+    height: 100%;
+}
