@@ -1,3 +1,8 @@
+@keyframes aparicion {
+    from {opacity: 0;}
+    to {opacity: 0.8;}
+}
+
 body{
     background-color:  #222838 ;
     background: linear-gradient(to right,#222838, #23336d );
@@ -7,7 +12,6 @@ body{
 #contenedor-principal{
     width: 100%;
     height: 2500px;
-    /*background-color: #58efb1;*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 40px;
 }
@@ -17,12 +21,16 @@ body{
     height: 2000px;
     margin-left: auto;
     margin-right: auto;
-    /*background-color: #eceac5;*/
 }
 
 header{
     font-size: 50px;
     padding-left: 20px;
+}
+
+main{
+    animation-name: aparicion;
+    animation-duration: 1.2s;
 }
 
 section{
@@ -43,6 +51,13 @@ h2{
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
+    opacity: 0.8;
+    transition-duration: 0.3s;
+    transition-property: opacity;
+}
+
+#sobre-mi p:hover{
+    opacity: 1;
 }
 
 #mi-foto{
@@ -59,9 +74,6 @@ h2{
 .proyecto{
     height: 170px;
     width: 100%;
-    /*border-style: solid;*/
-    /*border-width: 1px;*/
-    /*background-color: #e80ea7;*/
     padding: 5px;
 }
 
