@@ -154,6 +154,14 @@ h3{
     width: 120px;
 }
 
+@media only screen and (orientation:portrait),(max-width:700px){
+    .habilidad-principal{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+
 .java-icono{
     height: 100%;
     width: 100%;
@@ -181,6 +189,13 @@ h3{
 .habilidad-secundaria{
     height: 80px;
     width: 80px;
+}
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    .habilidad-secundaria{
+        height: 20px;
+        width: 20px;
+    }
 }
 
 .docker-icono{
@@ -223,6 +238,13 @@ h3{
     width: 120px;
     transition-duration: 0.3s;
     transition-property: transform;
+}
+
+@media only screen and (orientation:portrait),(max-width:700px){
+    .contenedor-contacto{
+        height: 80px;
+        width: 80px;
+    }
 }
 
 .contenedor-contacto:hover{
