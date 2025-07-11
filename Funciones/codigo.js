@@ -31,4 +31,15 @@ const handler = {
 }
 
 handler.greeting()
-handler.arrowGreeting()
+handler.arrowGreeting();
+
+//IIFE (Expresiòn de funciòn invocada inmediatamente)
+
+(function(){ // Esta fucnión se invoca inmediatamente y funciona solamente si colocamos un ; en la línea anterior y posterior a esta función
+    console.log("IIFE clásico")
+})();
+
+(()=>{
+    console.log("IIFE con función flecha")
+})();
+
