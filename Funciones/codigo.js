@@ -69,3 +69,24 @@ console.log(sumWithSpread(45,1,29)) // Sin spread
 console.log(sumWithSpread(...numbers)) //Con spread. 
 console.log(sumWithSpread(...moreNumbers)) // Realiza la suma con los tres primeros elementos del array
 console.log(sumWithSpread(...lessNumbers)) // Da error (NaN)
+
+// Closures
+
+function createCounter(){
+    let counter = 0
+    return function(){
+        counter++
+        console.log(`Counter: ${counter}`)
+    }
+}
+
+const counter = createCounter()
+counter() // Cada vez que llamo a esta función aumenta el valor de la variable que está dentro de la función externa. Su valor no se pierde porque se guarda en la const counter
+counter()
+counter()
+
+const counter2 = createCounter() // Se crea una nueva variable counter en la const counter2
+counter2()
+counter2()
+counter2()
+counter2()
