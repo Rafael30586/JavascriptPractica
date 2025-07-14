@@ -35,7 +35,7 @@ handler.arrowGreeting();
 
 //IIFE (Expresiòn de funciòn invocada inmediatamente)
 
-(function(){ // Esta fucnión se invoca inmediatamente y funciona solamente si colocamos un ; en la línea anterior y posterior a esta función
+(function(){ // Esta función se invoca inmediatamente y funciona solamente si colocamos un ; en la línea anterior y posterior a esta función
     console.log("IIFE clásico")
 })();
 
@@ -43,3 +43,14 @@ handler.arrowGreeting();
     console.log("IIFE con función flecha")
 })();
 
+// Parámretros rest
+
+function sum(...numbers){ // Cuando se llama a la función se puede agregar tantos argumentos como  queramos y con ellos se generará un array
+    let suma = 0
+    for(number of numbers){
+        suma += number
+    }
+    console.log(suma)
+}
+
+sum(5,10,3)
