@@ -54,3 +54,18 @@ function sum(...numbers){ // Cuando se llama a la función se puede agregar tant
 }
 
 sum(5,10,3)
+
+//Operador spread
+
+const numbers = [1,2,3]
+const moreNumbers = [4,1,8,3,9]
+const lessNumbers = [3,7]
+
+function sumWithSpread(a,b,c){
+    return a + b + c
+}
+
+console.log(sumWithSpread(45,1,29)) // Sin spread
+console.log(sumWithSpread(...numbers)) //Con spread. 
+console.log(sumWithSpread(...moreNumbers)) // Realiza la suma con los tres primeros elementos del array
+console.log(sumWithSpread(...lessNumbers)) // Da error (NaN)
