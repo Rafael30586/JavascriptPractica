@@ -50,10 +50,11 @@ function sum(...numbers){ // Cuando se llama a la función se puede agregar tant
     for(number of numbers){
         suma += number
     }
-    console.log(suma)
+    //console.log(suma)
+    return suma
 }
 
-sum(5,10,3)
+console.log(sum(5,10,3))
 
 //Operador spread
 
@@ -100,4 +101,30 @@ function factorial(n){
     return n * factorial(n - 1)
 }
 
-console.log(factorial(1))
+console.log(factorial(5))
+
+// Funciones parciales
+
+function parcialSum(a){
+    return function(b,c){
+        return sum(a,b,c)
+    }
+}
+
+const sumWith = parcialSum(4) // El 4 pasado como argumento queda almacenado en la variable sumWith.  
+console.log(sumWith(2,3))
+console.log(sumWith(1,2))
+
+// Currying
+
+function currySum(a){
+    return function(b){
+        return function(c){
+            return sum(a,b,c)
+        }
+    }
+}
+
+const sumAB = currySum(4)(8)
+console.log(sumAB(5))
+console.log(sumAB(10))
