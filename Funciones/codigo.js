@@ -192,8 +192,32 @@ function potencia(base,exponente){ // Esta función funciona pero no es recursiv
     return resultado
 }
 
-
 // 4. Crea una función createCounter() que reciba un valor inicial y retorne un objeto con métodos para increment(), decrement() y getValue(), utilizando un closure para mantener el estado
+
+function createCounter2(valor){
+
+    return {
+        increment: function(){
+            valor++
+        },
+        decrement: function(){
+            valor--
+        },
+        getValue: function(){
+            return valor
+        }
+    }
+
+}
+
+const a = createCounter2(5)
+a.increment()
+a.increment()
+console.log(a.getValue())
+
+const b = createCounter2(11)
+b.decrement()
+console.log(b.getValue())
 
 // 5. Crea una función sumManyTimes(multiplier, ...numbers) que primero sume todos los números (usando parámetros Rest) y luego multiplique el resultado por multiplier
 
