@@ -221,9 +221,39 @@ console.log(b.getValue())
 
 // 5. Crea una función sumManyTimes(multiplier, ...numbers) que primero sume todos los números (usando parámetros Rest) y luego multiplique el resultado por multiplier
 
+function sumManyTimes(multiplier, ...numbers){
+    let suma = 0
+    for(let number of numbers){
+        suma += number
+    }
+    return multiplier * suma
+}
+
+console.log(sumManyTimes(2,5,1,6,8)) // 2 es el multiplier y los otros números se suman entre sí
+
+
 // 6. Crea un Callback que se invoque con el resultado de la suma de todos los números que se le pasan a una función
 
+function sumaMasCallback(callback, ...numbers){
+    let suma = 0
+    for(number of numbers){
+        suma += number
+    }
+    callback(suma)
+}
+
 // 7. Desarrolla una función parcial
+
+function subtract(a){
+    return function(b,c){
+        return a - b - c
+    }
+}
+
+const resta = subtract(45)
+console.log(resta(4,16))
+
+
 
 // 8. Implementa un ejemplo que haga uso de Spread
 
