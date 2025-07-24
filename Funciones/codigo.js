@@ -257,6 +257,14 @@ console.log(resta(4,16))
 
 // 8. Implementa un ejemplo que haga uso de Spread
 
+let manyNumbers = [6,1,9,10]
+
+function multiplicarConSpread(n1,n2,n3,n4){
+    return n1*n2*n3*n4
+}
+
+console.log(multiplicarConSpread(...manyNumbers))
+
 // 9. Implementa un retorno implícito
 
 // 10. Haz uso del this léxico
