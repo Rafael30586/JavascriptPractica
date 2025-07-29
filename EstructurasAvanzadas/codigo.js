@@ -62,3 +62,48 @@ console.log(sorted)
 
 sorted.reverse() // Este método muta el array
 console.log(sorted)
+
+// - Búsqueda
+
+// includes
+
+console.log(sorted.includes(4))
+
+// find
+
+let firstEven = sorted.find(element => element % 2 === 0)
+console.log(firstEven)
+
+// findIndex
+
+let firstEvenIndex = sorted.findIndex(element => element % 2 === 0) 
+console.log(firstEvenIndex)
+
+// Si el método findIndex no encuentra nada, retorna -1
+
+// Sets avanzados
+
+// - Operaciones
+
+// Eliminación de duplicados. Se eliminan duplicados de un array utilizando el constructor de un set pero teniendo un array como resultado gracias al spread.
+
+const numbersArray = [1,2,2,3,4,5,6,6]
+const numbersSet = [...new Set(numbersArray)]
+console.log(numbersSet)
+
+// Unión 
+
+const setA = new Set([1,2,3])
+const setB = new Set([2,3,4,5])
+const union = new Set([...setA,...setB])
+console.log(union)
+
+// Intersección
+
+const intersection = new Set([...setA].filter(element => setB.has(element)))
+console.log(intersection)
+
+// Diferencia
+
+const difference = new Set([...setA].filter(element => !setB.has(element)))
+console.log(difference)
