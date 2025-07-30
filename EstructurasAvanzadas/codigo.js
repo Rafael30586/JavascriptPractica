@@ -107,3 +107,43 @@ console.log(intersection)
 
 const difference = new Set([...setA].filter(element => !setB.has(element)))
 console.log(difference)
+
+// Conversión de Sets
+
+console.log([...setA])
+
+// - Iteración de Sets 
+
+// forEach
+
+setA.forEach(element => console.log(element))
+
+// Maps avanzados
+
+let myMap = new Map([
+    ["Nombre", "Rafael"],
+    ["Edad",39]
+])
+
+console.log(myMap)
+
+myMap.forEach((key,value) => console.log(key, ": ",value))
+
+// - Conversión de maps
+
+// Map a array
+
+const arrayFromMap = Array.from(myMap)
+console.log(arrayFromMap)
+
+// Map a objeto
+
+const objectFromMap = Object.fromEntries(myMap)
+console.log(objectFromMap)
+
+// Objeto a Map
+
+const mapFromObject = new Map(Object.entries(objectFromMap))
+console.log(mapFromObject)
+
+
