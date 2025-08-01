@@ -185,3 +185,19 @@ let numeros = [32,10,71,20,45]
 let numerosElevadosAlCubo = numeros.map(numero=>numero*numero*numero)
 let numerosElevadosAlCuboPares = numerosElevadosAlCubo.filter(numero=>numero % 2 === 0)
 
+// Ejercicio 3
+
+let marcasDeAutos = ["Fiat",["Renault"],"Audi",["Mercedes Benz"]]
+let marcasDeAutos2 = marcasDeAutos.flat(1)
+console.log(marcasDeAutos2)
+
+let paises = ["   Argrentina"," Austria ","  Congo "," Uruguay  ","  Alemania "]
+let paises2 = paises.flatMap(pais => pais.trim())
+console.log(paises2)
+
+// Ejercicio 4
+
+let masNumeros = [56,10,92,30,87]
+masNumeros.sort((a,b)=> b-a)
+console.log(masNumeros)
+
