@@ -201,3 +201,50 @@ let masNumeros = [56,10,92,30,87]
 masNumeros.sort((a,b)=> b-a)
 console.log(masNumeros)
 
+// Ejercicio 7 
+
+let usuarios = new Map([
+    ["fraq86@gmail.com",{nombre:"Fernando Rafael", edad:39}],
+    ["ayelen@gmail.com",{nombre:"Ayelén Gimena", edad:29}],
+    ["mario@gmail.com",{nombre:"Mario Gonzalo", edad:34}],
+])
+
+usuarios.forEach((value,key)=>{
+    console.log("Email: ",key)
+    console.log("Usuario: ",value)
+})
+
+//Ejercicio 8
+
+let nombresDeUsuarios = []
+usuarios.forEach((value,key)=>{
+    nombresDeUsuarios.push(value.nombre)
+})
+
+console.log(nombresDeUsuarios)
+
+//Ejercicio 9
+
+let emailsDeMayoresdeEdad 
+let arrayEmails = []
+
+usuarios.forEach((value,key)=>{
+    if(value.edad > 18){
+        arrayEmails.push(key)
+    }
+})
+
+console.log(arrayEmails)
+
+emailsDeMayoresdeEdad = new Set(arrayEmails)
+console.log(emailsDeMayoresdeEdad)
+
+// Ejercicio 10
+
+let objetoDeUsuarios = Object.fromEntries(usuarios)
+console.log(objetoDeUsuarios)
+
+let mapaDeUsuarios = new Map(Object.entries(objetoDeUsuarios))
+console.log(mapaDeUsuarios)
+
+
