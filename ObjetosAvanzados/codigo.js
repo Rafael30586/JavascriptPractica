@@ -22,3 +22,26 @@ person.sayAge = function(){
 console.log(person)
 person.sayAge()
 
+// Herencia
+
+let programmer = Object.create(person)
+programmer.language = "Javascript"
+
+console.log(programmer.name)
+console.log(programmer.age)
+programmer.greet()
+programmer.sayAge()
+
+// - Métodos estáticos y de instancia
+
+function Person(name, age){
+    this.name = name
+    this.age = age
+}
+
+Person.prototype.greet = function (){
+    console.log(`Hola, soy ${this.name}`)
+}
+
+let new_person = new Person("Brais",37)
+new_person.greet()
