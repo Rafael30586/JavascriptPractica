@@ -45,3 +45,19 @@ Person.prototype.greet = function (){
 
 let new_person = new Person("Brais",37)
 new_person.greet()
+
+// - Métodos avanzados
+
+// assign
+
+let personCore = {name: "Brais"}
+let personDetails = {age: 37, alias: "MoureDev"}
+
+let fullPerson = Object.assign(personCore, personDetails)
+console.log(fullPerson)
+
+// keys, values, entries
+
+console.log(Object.keys(fullPerson))
+console.log(Object.values(fullPerson))
+console.log(Object.entries(fullPerson))
