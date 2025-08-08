@@ -61,3 +61,58 @@ console.log(fullPerson)
 console.log(Object.keys(fullPerson))
 console.log(Object.values(fullPerson))
 console.log(Object.entries(fullPerson))
+
+// Clases avanzadas
+
+class Person2 {
+    constructor(name,age){
+        this.name = name
+        this.age = age
+    }
+
+    greet(){
+        console.log(`Hola, soy ${this.name}`)
+    }
+}
+
+const person2 = new Person2('Brais',37)
+
+console.log(person2)
+
+// Clases abstractas
+
+class Animal{
+    constructor(name){
+        if(new.target === Animal){
+            throw new Error("No se puede instanciar una clase abstracta")
+        }
+        this.name = name
+    }
+
+    makeSound(){
+        throw new Error("Este método tiene que ser implementado por la subclase")
+    }
+}
+
+// - Polimorfismo
+
+class Cat extends Animal{
+    makeSound(){
+        console.log('miau!')
+    }
+
+}
+
+class Dog extends Animal{
+    makeSound(){
+        console.log('guau!')
+    }
+}
+
+const cat = new Cat('Heatcliff')
+console.log(cat)
+cat.makeSound()
+
+const dog = new Dog('Angelo')
+console.log(dog)
+dog.makeSound()
