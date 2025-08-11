@@ -116,3 +116,32 @@ cat.makeSound()
 const dog = new Dog('Angelo')
 console.log(dog)
 dog.makeSound()
+
+// - Mixins
+
+const FlyMixin = {
+    fly(){
+        console.log(`${this.name} está volando`)
+    }
+}
+
+class Bird extends Animal {
+
+}
+
+class Dragon extends Animal{
+
+}
+
+Object.assign(Bird.prototype, FlyMixin)
+Object.assign(Dragon.prototype,FlyMixin)
+
+const bird = new Bird("MoureBird")
+
+console.log(bird)
+bird.fly()
+
+const dragon = new Dragon("MoureDragon")
+
+console.log(dragon.name)
+dragon.fly()
