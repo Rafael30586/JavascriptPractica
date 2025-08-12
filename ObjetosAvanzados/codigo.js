@@ -145,3 +145,24 @@ const dragon = new Dragon("MoureDragon")
 
 console.log(dragon.name)
 dragon.fly()
+
+// - Patrón Singleton
+
+class Session {
+    constructor(name){
+        if(Session.instance){
+            return Session.instance
+        }
+        this.name = name
+        Session.instance = this
+    }
+}
+
+const session1 = new Session("Brais Moure")
+const session2 = new Session()
+console.log(session1.name)
+console.log(session2.name)
+console.log(session1 === session2)
+
+const session3 = new Session("MoureDev")
+console.log(session3.name)
