@@ -166,3 +166,19 @@ console.log(session1 === session2)
 
 const session3 = new Session("MoureDev")
 console.log(session3.name)
+
+// - Symbol
+
+const ID = Symbol("id")
+
+class User{
+    constructor(name){
+        this.name = name
+        this[ID] = Math.random()
+    }
+}
+
+const user = new User("Brais")
+console.log(user.name)
+console.log(user.ID) /* Imprime undefined */
+console.log(user[ID])
