@@ -182,3 +182,42 @@ const user = new User("Brais")
 console.log(user.name)
 console.log(user.ID) /* Imprime undefined */
 console.log(user[ID])
+
+// - intance of
+
+class Car {
+
+}
+
+const car = new Car()
+
+console.log(car instanceof Car)
+
+// - create 
+
+const anotherCar = Object.create(Car.prototype)
+
+console.log(anotherCar instanceof Car)
+
+// - Proxy
+
+const proxy = {
+    get(target, property){
+        console.log(target)
+        console.log(property)
+    },
+    set(target, property, value){
+        conasole.log(target)
+        console.log(property)
+        console.log(value)
+    }
+}
+
+class BankAccount{
+    constructor(balance){
+        this.balance = balance
+    }
+}
+
+const account = new Proxy(new BankAccount(100), proxy)
+console.log(account.balance)
