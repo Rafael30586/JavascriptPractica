@@ -221,3 +221,16 @@ class BankAccount{
 
 const account = new Proxy(new BankAccount(100), proxy)
 console.log(account.balance)
+
+// -Dynamic object keys
+
+let appState = 'loading'
+
+const app = {
+    [appState]:true // El valor de la llave appState es dinámico porque podemos cambiarlo modificando el valor de la variable appState, en este punto vale loading
+}
+
+console.log(app) // Imprime Object {loading : true}
+
+appState = 'error' // ahora la llava appState es igual a error
+
