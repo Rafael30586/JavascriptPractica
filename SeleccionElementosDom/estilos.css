@@ -1,0 +1,93 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.triangulo{
+    background-color: #29276b;
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+[pink-orchid=true]{
+    background-color: #d065df;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50% at 50% 50%);;
+}
+
+.oh-pistachio{
+    background-color: #a9cc98;
+}
+
+.pink-horror{
+    background-color: #9b2960;
+}
+
+[sour-apple-rings=true]{
+    background-color: #2bb30e;
+}
+
+.flecha{
+    background-color: #66e869;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    width: 100px;
+    height: 100px;
+}
+
+.flecha-derecha{
+    background-color: #574474;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.cruz{
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    background-color: #b94738;
+    width: 100px;
+    height: 100px;
+}
+
+
+.estrella{
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: #faaee7;
+}
+
+
+
+/* BOTONES */
+
+
+.contenedor-botones{
+    margin-top: 200px;
+    display: flex;
+    padding: 20px;
+    gap:100px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+}
+
+#boton1{
+    background-color: #4c3fdd;
+}
+
+#boton2{
+    background-color: #2efefe;
+}
+
+#boton3{
+    background-color: #de871b;
+}
+
+#boton4{
+    background-color: #ec165d;
+}
