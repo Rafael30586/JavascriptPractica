@@ -1,9 +1,11 @@
 let personajes = ["Mario", "Kirby", "Link", "Shepard"]
 
 let [mario , kirby, verde] = personajes //Destructuring de un array
+let [bigoton,,,comandante] = personajes // Los espacios vacios representan las partes del array que no queremos destructurar, en este caso serian las segunda y tercera posicion
 
 console.log(mario)
 console.log(verde)
+console.log(comandante)
 
 let juegazo = "Mass effect 2"
 
