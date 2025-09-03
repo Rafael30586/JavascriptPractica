@@ -12,3 +12,10 @@ let juegoCompleto = { // Object spreading
     ...juego,
     genero: "Plataformas"
 }
+
+let nintendo = "Nintendo"
+
+let letras = [...nintendo] // El string es transformado en un array de letras
+
+
+
